@@ -1,0 +1,31 @@
+
+
+.blur-container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	overflow: hidden;
+	opacity: .6
+}
+
+.jumbotron {
+	color: white;
+}
+
+.jumbotron hr {
+	border-top-color: black; 
+}
+body, html {
+    height: 100%;
+}
+
+body {
+	background: url("/pl/inc/img/parking-lot.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

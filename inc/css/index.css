@@ -1,0 +1,23 @@
+header {
+	margin-bottom: 100px;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+div.jumbotron {
+	background-color: transparent;
+}
+
+.white {
+	color: white;
+}
+
+.center-frame{
+	margin: 0 auto;
+}
+
+.bottom-padding {
+	margin-bottom: 23px;
+}
