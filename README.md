@@ -1,4 +1,4 @@
-# twitter_app
+# parking_lot_app
 The project utilizes PHP, MySQL, JavaScript, HTML, and CSS to complete the requirements. No frameworks were used outside of jQuery and BootStrap, so all of the code is written by myself. I did utilize some common boilerplate code from another project of mine that is not yet complete. A lot of the framework structure I had to add ad hoc during the 4 hour challenge. 
 
 ## Future Changes
@@ -16,4 +16,4 @@ The /fw directory is a directory I'm using as an interface bewteen the JavaScrip
 
 The /parking folder is the meat of the application. This is where the logic and different models go. I basically setup an MVC from scratch, but it is not fully an MVC yet. Some other things need to be done before it can be considered that. Each page should be made with a class that subclasses Page.php. This class will indicate the css and js to include in the HTML header. It has a base function which outputs all the HTML to the screen. It does this by calling an action on the controller for that page.
 
-The controllers are supposed to be used as that. They are to retrieve data, fill a view with that data and output it to the screen. The controller will use the models to get information about a specific record from the MySQL database. The logic for some of the data retrieval could be outsourced to other classes for HomeController, but for the sake of time, I did not do this. I have also made a Service folder which acts as a service for database retrieval. 
+The controllers are supposed to be used as that. They are to retrieve data, fill a view with that data and output it to the screen. The controller will use the models to get information about a specific record from the MySQL database. The logic for some of the data retrieval could be outsourced to other classes for HomeController, but for the sake of time, I did not do this. I have also made a Service folder which acts as a service for database retrieval.
